@@ -3,8 +3,8 @@ require "formula"
 class Stm32flash < Formula
   homepage "https://code.google.com/p/stm32flash/"
   version "20141004"
-  url "https://gitorious.org/stm32flash/stm32flash/archive/ba7602d84be9b5f45c257c7abccc78e8257eeda5.tar.gz"
-  sha1 "363731e1d0aba9eec818858a52b30fdc506d2022"
+  url "http://tcpdiag.dl.sourceforge.net/project/stm32flash/stm32flash-0.4.tar.gz"
+  sha1 "0c82289e20a8f120d7524f63d725ce623f1b8136"
 
   def install
     system "make"
